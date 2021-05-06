@@ -10,7 +10,7 @@ $conn = mysqli_connect($servername, $username, $password, $database) or die("Kh�
    {
        if($_POST['username'] == null || $_POST['password'] == null)
        {
-           echo "<script> alert ('Vui lòng nhập tài khoản và mật khẩu của bạn') </script>";
+           echo "<script> alert ('Vui lòng hãy nhập tài khoản và mật khẩu của bạn') </script>";
        }
        else
        {
